@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context=".ActivityMenu">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbar"
+        android:layout_alignParentTop="true"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="@color/colorPrimary"
+        android:layoutDirection="rtl">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_arrow"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:id="@+id/img_backdastehbandi"/>
+            <TextView
+                android:id="@+id/txttitledastehbandi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_margin="16dp"
+                android:layout_toLeftOf="@id/img_backdastehbandi"
+                android:textColor="@color/colorText"/>
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/grid_menu"
+        android:layout_below="@id/toolbar"
+        android:numColumns="2"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:stretchMode="columnWidth"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp">
+
+    </GridView>
+
+
+</RelativeLayout>

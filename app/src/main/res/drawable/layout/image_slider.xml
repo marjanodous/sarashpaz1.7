@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_margin="16dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="8dp">
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_alignParentTop="true" />
+
+        <com.viewpagerindicator.CirclePageIndicator
+            android:id="@+id/indicator"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:padding="10dip"
+            app:centered="true"
+            app:fillColor="#80383838"
+            app:pageColor="#80FFFFFF"
+            app:strokeWidth="0.01dp"
+            app:snap="false"
+            android:background="@drawable/bg_overlay"
+            android:layout_gravity="bottom"/>
+        <!--<TextView-->
+        <!--android:id="@+id/tv_auto_image_slider"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:layout_marginBottom="25dp"-->
+        <!--android:padding="6dp"-->
+        <!--android:textColor="#FFF"-->
+        <!--android:textSize="18sp" />-->
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

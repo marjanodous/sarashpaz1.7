@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">امروز غذا چی بپزم ؟</string>
+    <string name="home">خانه</string>
+    <string name="history">تاریخچه</string>
+    <string name="search">جستجو</string>
+    <string name="resultSearch">  نتیجه جستجو</string>
+    <string name="mianVade">میان وعده</string>
+    <string name="bartarinDastoorPokht">برترین دستورپخت ها</string>
+    <string name="akharinVideo">آخرین ویدئو ها</string>
+    <string name="dasteBandi">دسته بندی</string>
+    <string name="video">ویدئو</string>
+    <string name="tamasbama">تماس با ما</string>
+    <string name="darbarema">درباره ما</string>
+    <string name="exit"> خروج از حساب کاربری</string>
+    <string name="vorud">ورود</string>
+    <string name="sabtnam">ثبت نام</string>
+    <string name="alaqemandi">علاقه مندی ها</string>
+    <string name="sonati"> غذاهای سنتی </string>
+    <string name="modern"> غذاهای مدرن </string>
+    <string name="tanaqolat"> تنقلات </string>
+    <string name="rejimi"> غذاهای رژیمی </string>
+    <string name="tazeen"> تنقلات </string>
+    <string name="soap"> سوپ </string>
+    <string name="salad"> سالاد </string>
+    <string name="deser"> دسر </string>
+    <string name="torshi"> ترشی و شور </string>
+    <string name="noshidani"> نوشیدنی </string>
+    <string name="cake"> کیک و شیرینی </string>
+    <string name="mahali"> غذاهای محلی </string>
+    <string name="koodak"> غذاهای کودک </string>
+    <string name="daneshjuee"> غذاهای دانشجویی </string>
+    <string name="image"> عکس ها </string>
+    <string name="nologin"> قبلا ثبت نام نکرده ام !!! </string>
+    <string name="login"> قبلا ثبت نام کرده ام !!! </string>
+    <string name="amuzesh"> آموزش غذا خوردن </string>
+    <string name="tarfand"> ترفند </string>
+    <string name="myanvade_koodak"> میان وعده کودک  </string>
+    <string name="mavad_lazem"> مواد لازم  </string>
+    <string name="tarz_tahie"> طرز تهیه   </string>
+    <string name="about">
+        هدف از ساخت نرم افزار آشپزی امروز غذا چی بپزم؟\n
+        برای آسانی و راحتی شما دوستداران آشپزی هست.\n
+        این برنامه با دارا بودن انواع دستورهای غذایی لذیذ و متنوع همراه با چندین دسته مختلف تمامی نیازهای شما را برای یک آشپزی ساده و راحت اما بسیار دلپذیر فراهم کرده است.\n
+        به علاوه طراحی ساده اما چشم نداز محیط کاربری لذت استفاده ازاین برنامه را برایتان دو چندان کرده است.\n
+        آیا میخواهید بدون نیاز به کتاب های حجیم آشپزی غذا بپزید؟\n
+آیا میخواهید دستورات غذایتان را همیشه همراه داشته باشید؟\n
+        آیا میخواهید با غذاهای سنتی و روز آشنا شوید؟
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
